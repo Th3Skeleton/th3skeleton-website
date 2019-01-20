@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("img/bg.png");
+	background-attachment: fixed;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 16px;
+	margin-bottom: 8px;
+}
+a.download {
+	font-style: italic;
+	text-decoration: none;
+}
+
+img.thumbnail {
+	width: 230px;
+	height: 125px;
+	border: gray solid 1px;
+	padding: 1px;
+	}
+img.thumbnail:hover {
+	box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+
+div.clear {
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+div.logo {
+	text-align: center;
+	margin: 16px;
+}
+div.main {
+	background-color: white;
+	border-radius: 50px;
+	box-shadow: 5px 5px 16px black;
+	padding: 24px;
+	width: 984px;
+	margin: 24px auto;
+}
+div.doublePanelGrid {
+	width: 448px;
+	height: 360px;
+}
+
+ul {
+    overflow: auto;
+}
+ 
+ul li {
+    list-style-type: none;
+    float: left;
+}
+ 
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 80px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15px;
+    transition: all 0.2s ease-in-out;
+}
+.fa-youtube {
+    background:#bb0000
+} 
+.fa-steam {
+    background:#000000
+}
+.fa-twitter {
+    background:#00aced
+}
+.fa-discord {
+    background:#7289da
+}
+.fa-instagram {
+    background:#c13584
+} 
+.fa-twitch {
+    background:#6441a5
+}
+.fa-spotify {
+    background:#1db954
+}
+.fa-reddit {
+    background:#ff4500
+}
+ul li a i:hover {
+    opacity: .7;
+}
